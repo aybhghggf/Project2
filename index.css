@@ -74,6 +74,28 @@ nav input {
     border-radius: 10px;
     margin-bottom: 40px;
 }
+.section-2 a{
+    text-decoration: none;
+}
+.section-2 a:hover{
+    text-decoration: underline;
+}
+.section-2{
+    padding: 70px;
+}
+.section-2 h1{
+    font-size: 40px;
+}
+.section-2 p{
+    font-size: 21px;
+}
+.section-2 img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    right: 70px;
+    top: 50px;
+}
 /* Responsive */
 @media (max-width: 768px) {
     .nav-items {
