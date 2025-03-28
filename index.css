@@ -96,6 +96,33 @@ nav input {
     right: 70px;
     top: 50px;
 }
+footer{
+    background-color: black;
+    padding: 40px;
+}
+footer section{
+    display: flex;
+    flex-direction: row;
+}
+footer h2{
+    color: white;
+    margin-left: 10px;
+    font-weight: 700;
+    padding: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.ft-end p{
+    color: white;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
 /* Responsive */
 @media (max-width: 768px) {
     .nav-items {
@@ -122,5 +149,9 @@ nav input {
     .btn {
         width: 100%; 
         margin: 10px 0;
+    }
+    footer section{
+        display: flex;
+        flex-direction: column;
     }
 }
